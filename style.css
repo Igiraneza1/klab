@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #15202b;
+    color: #e1e8ed;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 20%;
+    padding: 20px;
+    background-color: #192734;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar nav ul li {
+    margin: 20px 0;
+}
+
+.sidebar nav ul li a {
+    color: #e1e8ed;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+}
+
+.tweet-button {
+    background-color: #1da1f2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.par a{
+    color: #1da1f2;
+}
+.got-button{
+    border-radius: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+.profile-container {
+    align-items: center;
+    border-radius: 10px;
+    padding: 15px;
+    width: fit-content;
+}
+.profile-picture {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.profile-info {
+    flex-direction: column;
+    justify-content: center;
+}
+.username {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+    display: inline;
+}
+
+.main-content {
+    width: 60%;
+    padding: 20px;
+    border-left: 1px solid #38444d;
+    border-right: 1px solid #38444d;
+}
+
+.whats-happening {
+    background-color: #253341;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.whats-happening textarea {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #15202b;
+    color: #e1e8ed;
+    font-size: 18px;
+    resize: none;
+}
+.whats-happening a{
+    color: #1da1f2;
+    margin: 10px;
+    font-size: 5px;
+}
+.post {
+    background-color: #253341;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.trends {
+    width: 20%;
+    padding: 20px;
+    background-color: #192734;
+}
+
+.trends h2 {
+    margin-top: 0;
+}
+
+.trends ul {
+    list-style: none;
+    padding: 0;
+}
+
+.trends ul li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+.input{
+    border-radius: 20px;
+    font-size: 130%;
+}
+.tweets{
+    color: #38444d;
+}
+.more{
+    font-size: 200%;
+    border-radius: 30px;
+    color: #1da1f2;
+
+}
